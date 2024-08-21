@@ -15,7 +15,7 @@ class MetadataParser {
       openGraph(document),
       twitterCard(document),
       jsonLdSchema(document),
-      htmlMeta(document),
+      //htmlMeta(document),
     ];
 
     for (final p in parsers) {
